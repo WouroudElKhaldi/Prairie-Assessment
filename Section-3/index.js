@@ -17,8 +17,8 @@ if (!isNaN(input) && input >= 2) {
     for ( i= 2 ; i <= input ; i++) {
         if (isPrime(i)){
             console.log(i);
-        }else {
+        }
+    }
+    } else {
         console.log("Invalid input")
     }
-    } 
-}
