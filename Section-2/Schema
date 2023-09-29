@@ -1,0 +1,6 @@
+Mentor ( SSN pk , FirstName , LastName , DOB , SeniorityLevel , Salary , Office , TopicSpeciality )
+Topic (ID pk , Title , Description)
+Students (StudentNo pk , SSN fk, FirstName , StartDate , SOB , cohortID fk  )
+cohort(ID pk , cohortNumber , StartSate , EndDate)
+Department (DEpartmentId pk , Name , office , TopicSpeciality)
+cohortTopics (id pk , cohorrtid fk , topicid fk)

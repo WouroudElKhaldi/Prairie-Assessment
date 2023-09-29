@@ -1,0 +1,19 @@
+1. Select FirstName , LastName , SeniorityLevel 
+From Mentor ;
+
+2. Select *
+From Mentor
+where Office = '333';
+
+3. Select *
+From Mentor
+where Salary > 1000;
+
+4.Select FirstName, LastName, SeniorityLevel
+From Mentor
+where Salary > 1000;
+
+5.Select M.FirstName, M.LastName
+From Mentor M
+join Department D on M.TopicSpecialty = D.TopicSpecialty
+where D.Name = 'English & Life Skills';
