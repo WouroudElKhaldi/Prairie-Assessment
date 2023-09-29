@@ -3,7 +3,7 @@ const isPrime = (number) => {
     if (number < 2) {
         return false ;
     } else {
-        for (i = 2 ; i < number ; i ++){
+        for (let i = 2 ; i < number ; i ++){
             if ( number % i === 0) {
                 return false
             }
@@ -14,7 +14,7 @@ const isPrime = (number) => {
 
 if (!isNaN(input) && input >= 2) {
     console.log(`prime numbers up tp ${input} are :`)
-    for ( i= 2 ; i <= input ; i++) {
+    for (let i= 2 ; i <= input ; i++) {
         if (isPrime(i)){
             console.log(i);
         }
